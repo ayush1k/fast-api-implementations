@@ -23,3 +23,7 @@ print(patient1.name)
 print(patient1.address.city)
 print(patient1.address.state)
 print(patient1.address.pin)
+
+temp = patient1.model_dump()
+print(temp)
+print(type(temp))

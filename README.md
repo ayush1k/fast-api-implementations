@@ -1,4 +1,4 @@
 # fast-api-implementations
 python -m venv venv
 source venv/bin/activate
-uvicorn main:app --reload
+uvicorn main:app --reloadgit

@@ -7,7 +7,7 @@ class Patient(BaseModel):
     
     age: int = Field(gt=0, lt=120) # now the value will always be greater than 0 and less that 120
     
-    email: EmailStr
+    email: EmailStr  
     
     Linkedin_url: AnyUrl
     
